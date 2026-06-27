@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+}
+#header{
+   
+   display: flex; 
+   height: 13%;
+    width: 100%;
+  background-color: white;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+}
+#id{
+    /* margin-left: 20px;
+    margin-right: 20px;
+    align-items: center; */
+    /* background-color: bisque; */
+    height: 70%;
+   
+    
+}
+#id img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+    background-image: url(https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2023/07/04_Blades_Marquee_2-Column-min.jpg?resize=2048,908);
+    background-size: cover;
+    
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(6, 6, 88);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#strip u{
+    font-weight: lighter;
+    margin: 20px;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(5, 5, 88);
+    font-weight: 600;
+}
+#box1{
+    height:90%;
+    width: 47%;
+    
+    margin: 10px;
+
+}
+#box2{
+    /* height: 90%; */
+    width: 47%;
+    /* background-color: beige; */
+    margin: 10px;
+}
+#box2 video{
+     height: 100%;
+    width: 100%;    
+    border-radius: 10%;
+    border: 2px;
+    /* border-color: black; */
+    /* border-style: solid; */
+
+}
+
+#fakeheader{
+     height: 13%;
+    width: 100%;
+   
+    /* position: fixed; */
+}
+
+
+.texts{
+    
+    color: darkblue;
+    display: flex;
+}
+.texts:hover{
+    color:rgb(39, 216, 219);
+    
+}
+.icon{
+   
+    padding: 10px;
+    border-radius: 60%;
+    
+    
+    
+}
+.icon:hover{
+    background-color: lightblue;
+    
+
+}
+#login{
+  
+
+}
+#try{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    
+  
+}
+#try:hover{
+    background-color: black;
+    color: white;
+}
+#contactdetails{
+    
+    font-weight: lighter;
+    color: rgb(33, 179, 228);
+
+}
+#contactdetails:hover{
+    color: black;
+}
+
+#login{
+    display: flex;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+#login:hover{
+    background-color: lightblue;
+}
+#btn1{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(9, 80, 103);
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color: rgb(4, 4, 75);
+}
+#btn2{
+    padding: 10px 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(9, 80, 103);
+    width: 20%;
+    margin: 20px;
+    color: rgb(9, 80, 103);
+    text-align: center;
+    border-radius: 5px;
+}
+#btn2:hover{
+    background-color: aliceblue;
+    border-color: rgb(8, 82, 148);
+    color: black;
+}
+
+#btns{
+    display: flex;
+}
+#box1 h1{
+    font-size: 70px;
+    color: purple;
+    /* width: 50%; */
+    font-weight: 600;
+    margin: 30px 10px;
+
+}
+#box1 p{
+    font-size: x-large;
+    word-spacing: 20px;
+    font-weight: lighter;
+    margin: 30px 10px;
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+        /* background-color: darkgray; */
+    }
+    
+
+.card{
+    height: 500px;
+    width: 300px;
+    /* border-color: black; */
+     /* border-style: solid; */
+     /* display: flex; */
+     margin: 20px;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     background: white;
+     box-shadow: 15px 20px 24px rgba(189, 17, 17, 0.1);
+     background: #fff;
+     padding: 16px;
+     overflow: hidden;
+
+}
+#c1 img{
+    height:40%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    
+}
+#c1 img:hover{
+    transform: scale(1.1);
+    
+}
+#c2 img{
+     height:40%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s ease;
+
+}
+#c2 img:hover{
+     transform: scale(1.1);
+}
+#c3 img{
+     height:40%;
+    width: 100%;
+        border-radius: 20px;
+        transition: 0.3s ease;
+    }
+    #c3 img:hover{
+         transform: scale(1.1);
+    }
+ #c4 img{
+     height:40%;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+#c4 img:hover{
+     transform: scale(1.1);
+}
+
+
+ #heading2{
+    color: rgb(5, 5, 62);
+    /* align-items: center; */
+    /* display: flex; */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+ }
+
+#kalu{
+    display: flex;
+       align-items: center;
+     justify-content: center;
+     box-shadow: 15 20px 24px rgba(189, 17, 17, 0.1);
+     background: #fff;
+     padding: 16px;
+     overflow: hidden;
+
+    
+}
+#c1 h2{
+    width: 90%;
+    color: rgb(29, 5, 51);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#c1 p{
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c2 h2{
+    width: 90%;
+    color: rgb(29, 5, 51);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#c2 p{
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c3 h2{
+    width: 90%;
+    color: rgb(29, 5, 51);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#c3 p{
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#c4 h2{
+    width: 90%;
+    color: rgb(29, 5, 51);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#c4 p{
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
